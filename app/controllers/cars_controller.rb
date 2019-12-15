@@ -11,7 +11,6 @@ class CarsController < ApplicationController
   # GET /cars/1
   # GET /cars/1.json
   def show
-    @makes = Make.all
   end
 
   # GET /cars/new
