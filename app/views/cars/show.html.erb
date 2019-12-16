@@ -15,11 +15,6 @@
   <%= @car.vin %>
 </p>
 
-<p>
-  <strong>Part:</strong>
-  <%= @part.name %>
-<p/>
-
 <ul>
   <% @car.parts.each do |part| %>
     <li><%= part.name %></li>
